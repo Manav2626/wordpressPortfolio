@@ -1,0 +1,22 @@
+[02-Jun-2024 06:45:49 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 7
+[02-Jun-2024 06:45:49 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[02-Jun-2024 06:45:49 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[02-Jun-2024 06:51:33 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "luxStylesheet" not found or invalid function name in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/script-loader.php(2265): do_action('wp_enqueue_scri...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#6 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/general-template.php(3050): do_action('wp_head')
+#7 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php(5): wp_head()
+#8 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/template.php(810): require_once('/Users/manav/Lo...')
+#9 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/template.php(745): load_template('/Users/manav/Lo...', true, Array)
+#10 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#11 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/index.php(2): get_header()
+#12 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/template-loader.php(106): include('/Users/manav/Lo...')
+#13 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(19): require_once('/Users/manav/Lo...')
+#14 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#15 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php on line 324
