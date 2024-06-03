@@ -9,7 +9,7 @@
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
       <li class="ms-3"><i class="bi bi-linkedin"></i></li>
       <li class="ms-3"><i class="bi bi-instagram"></i></li>
-      <li class="ms-3"><i class="bi bi-facebook"></i></li>
+      <li class="ms-3"><i class="bi bi-facebook"></i></li> 
      
     </ul>
   </footer>
