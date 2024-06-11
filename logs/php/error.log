@@ -20,3 +20,635 @@ Stack trace:
 #14 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
 #15 {main}
   thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php on line 324
+[11-Jun-2024 10:53:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_uri() in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/front-page.php:10
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(19): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#3 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/front-page.php on line 10
+[11-Jun-2024 10:59:16 UTC] PHP Parse error:  syntax error, unexpected token "while" in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/page.php on line 2
+[11-Jun-2024 12:25:59 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_customize_page" not found or invalid function name in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin.php(259): do_action('lux_page_custom...')
+#3 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php on line 324
+[11-Jun-2024 12:31:18 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_theme_options_page" not found or invalid function name in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin.php(259): do_action('toplevel_page_m...')
+#3 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php on line 324
+[11-Jun-2024 12:31:22 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 12:31:31 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 12:31:43 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 12:32:13 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_theme_options_page" not found or invalid function name in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin.php(259): do_action('toplevel_page_m...')
+#3 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php on line 324
+[11-Jun-2024 12:32:26 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "my_theme_options_page" not found or invalid function name in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin.php(259): do_action('toplevel_page_m...')
+#3 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php on line 324
+[11-Jun-2024 12:32:28 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 12:33:20 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 12:36:25 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 12:36:25 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php:1108
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php(4682): wp_check_invalid_utf8(Object(WP_Term))
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(556): esc_html(Object(WP_Term))
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(430): WP_Customize_Control->render_content()
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(417): WP_Customize_Control->render()
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(381): WP_Customize_Control->maybe_render()
+#5 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(319): WP_Customize_Control->get_content()
+#6 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(337): WP_Customize_Control->to_json()
+#7 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-manager.php(5006): WP_Customize_Control->json()
+#8 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->customize_pane_settings('')
+#9 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/customize.php(302): do_action('customize_contr...')
+#12 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php on line 1108
+[11-Jun-2024 12:37:37 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 12:37:37 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php:1108
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php(4682): wp_check_invalid_utf8(Object(WP_Term))
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(556): esc_html(Object(WP_Term))
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(430): WP_Customize_Control->render_content()
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(417): WP_Customize_Control->render()
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(381): WP_Customize_Control->maybe_render()
+#5 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(319): WP_Customize_Control->get_content()
+#6 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(337): WP_Customize_Control->to_json()
+#7 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-manager.php(5006): WP_Customize_Control->json()
+#8 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->customize_pane_settings('')
+#9 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/customize.php(302): do_action('customize_contr...')
+#12 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php on line 1108
+[11-Jun-2024 12:37:39 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 12:37:39 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php:1108
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php(4682): wp_check_invalid_utf8(Object(WP_Term))
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(556): esc_html(Object(WP_Term))
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(430): WP_Customize_Control->render_content()
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(417): WP_Customize_Control->render()
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(381): WP_Customize_Control->maybe_render()
+#5 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(319): WP_Customize_Control->get_content()
+#6 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(337): WP_Customize_Control->to_json()
+#7 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-manager.php(5006): WP_Customize_Control->json()
+#8 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->customize_pane_settings('')
+#9 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/customize.php(302): do_action('customize_contr...')
+#12 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php on line 1108
+[11-Jun-2024 12:37:45 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 12:37:45 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php:1108
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php(4682): wp_check_invalid_utf8(Object(WP_Term))
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(556): esc_html(Object(WP_Term))
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(430): WP_Customize_Control->render_content()
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(417): WP_Customize_Control->render()
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(381): WP_Customize_Control->maybe_render()
+#5 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(319): WP_Customize_Control->get_content()
+#6 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(337): WP_Customize_Control->to_json()
+#7 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-manager.php(5006): WP_Customize_Control->json()
+#8 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->customize_pane_settings('')
+#9 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/customize.php(302): do_action('customize_contr...')
+#12 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php on line 1108
+[11-Jun-2024 12:39:37 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 12:44:05 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 12:46:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/script-loader.php:2938) in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/pluggable.php on line 1435
+[11-Jun-2024 12:46:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/script-loader.php:2938) in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/pluggable.php on line 1438
+[11-Jun-2024 12:46:20 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 12:47:15 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 12:47:15 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php:1108
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php(4682): wp_check_invalid_utf8(Object(WP_Term))
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(556): esc_html(Object(WP_Term))
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(430): WP_Customize_Control->render_content()
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(417): WP_Customize_Control->render()
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(381): WP_Customize_Control->maybe_render()
+#5 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(319): WP_Customize_Control->get_content()
+#6 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(337): WP_Customize_Control->to_json()
+#7 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-manager.php(5006): WP_Customize_Control->json()
+#8 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->customize_pane_settings('')
+#9 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/customize.php(302): do_action('customize_contr...')
+#12 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php on line 1108
+[11-Jun-2024 12:47:40 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 12:47:40 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php:1108
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php(4682): wp_check_invalid_utf8(Object(WP_Term))
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(556): esc_html(Object(WP_Term))
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(430): WP_Customize_Control->render_content()
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(417): WP_Customize_Control->render()
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(381): WP_Customize_Control->maybe_render()
+#5 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(319): WP_Customize_Control->get_content()
+#6 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(337): WP_Customize_Control->to_json()
+#7 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-manager.php(5006): WP_Customize_Control->json()
+#8 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->customize_pane_settings('')
+#9 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/customize.php(302): do_action('customize_contr...')
+#12 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php on line 1108
+[11-Jun-2024 13:51:54 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 13:51:54 UTC] PHP Fatal error:  Uncaught Error: Object of class WP_Term could not be converted to string in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php:1108
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php(4682): wp_check_invalid_utf8(Object(WP_Term))
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(556): esc_html(Object(WP_Term))
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(430): WP_Customize_Control->render_content()
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(417): WP_Customize_Control->render()
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(381): WP_Customize_Control->maybe_render()
+#5 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(319): WP_Customize_Control->get_content()
+#6 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-control.php(337): WP_Customize_Control->to_json()
+#7 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-manager.php(5006): WP_Customize_Control->json()
+#8 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(324): WP_Customize_Manager->customize_pane_settings('')
+#9 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#11 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/customize.php(302): do_action('customize_contr...')
+#12 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/formatting.php on line 1108
+[11-Jun-2024 13:52:15 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 13:55:55 UTC] PHP Fatal error:  Cannot redeclare my_theme_options_page() (previously declared in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:21) in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 13:55:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[11-Jun-2024 13:55:55 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[11-Jun-2024 13:57:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/script-loader.php:2938) in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/pluggable.php on line 1435
+[11-Jun-2024 13:57:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/script-loader.php:2938) in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/pluggable.php on line 1438
+[11-Jun-2024 13:57:25 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 13:58:33 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 14
+[11-Jun-2024 13:58:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:14
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(324): lux_stylesheet('')
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/script-loader.php(2265): do_action('wp_enqueue_scri...')
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/general-template.php(3050): do_action('wp_head')
+#8 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php(5): wp_head()
+#9 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/template.php(810): require_once('/Users/manav/Lo...')
+#10 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/template.php(745): load_template('/Users/manav/Lo...', true, Array)
+#11 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#12 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/front-page.php(4): get_header()
+#13 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/template-loader.php(106): include('/Users/manav/Lo...')
+#14 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(19): require_once('/Users/manav/Lo...')
+#15 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#16 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 14
+[11-Jun-2024 13:59:47 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 13:59:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(13): require_once('/Users/manav/Lo...')
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#5 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 13:59:56 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 13:59:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(13): require_once('/Users/manav/Lo...')
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#5 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:00:04 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:00:04 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(13): require_once('/Users/manav/Lo...')
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#5 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:00:06 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:00:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(13): require_once('/Users/manav/Lo...')
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#5 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:00:27 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:00:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/manav/Lo...')
+#4 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:01:26 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:01:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(13): require_once('/Users/manav/Lo...')
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#5 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:01:34 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:01:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(13): require_once('/Users/manav/Lo...')
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#5 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:01:40 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:01:40 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:01:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(13): require_once('/Users/manav/Lo...')
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#5 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:01:40 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(13): require_once('/Users/manav/Lo...')
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#5 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:02:06 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:02:06 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(13): require_once('/Users/manav/Lo...')
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#5 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:02:27 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:02:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/manav/Lo...')
+#4 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:02:32 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:02:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(13): require_once('/Users/manav/Lo...')
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#5 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:02:33 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:02:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(13): require_once('/Users/manav/Lo...')
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#5 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:02:34 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:02:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(13): require_once('/Users/manav/Lo...')
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#5 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:02:47 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:02:47 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(13): require_once('/Users/manav/Lo...')
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#5 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:04:01 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:04:01 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(13): require_once('/Users/manav/Lo...')
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#5 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:04:27 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:04:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/manav/Lo...')
+#4 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:06:27 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:06:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/manav/Lo...')
+#4 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:07:18 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:07:18 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:07:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(13): require_once('/Users/manav/Lo...')
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#5 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:07:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(13): require_once('/Users/manav/Lo...')
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#5 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:08:27 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:08:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/manav/Lo...')
+#4 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:10:27 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:10:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/manav/Lo...')
+#4 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:12:27 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:12:27 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/manav/Lo...')
+#4 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:14:28 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:14:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/manav/Lo...')
+#4 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:16:28 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:16:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/manav/Lo...')
+#4 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:18:28 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:18:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/manav/Lo...')
+#4 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:20:28 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:20:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/manav/Lo...')
+#4 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:22:28 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:22:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/manav/Lo...')
+#4 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:24:28 UTC] PHP Warning:  require_once(/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php): Failed to open stream: No such file or directory in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:24:28 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/inc/class-wp-bootstrap-navwalker.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:76
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-settings.php(663): include()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-config.php(103): require_once('/Users/manav/Lo...')
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-load.php(50): require_once('/Users/manav/Lo...')
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/manav/Lo...')
+#4 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 76
+[11-Jun-2024 14:33:10 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 14:33:41 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:33:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:33:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:33:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:33:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:33:56 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:33:56 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:33:56 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:33:56 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:34:00 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 14:34:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:34:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:34:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:34:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:34:02 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:34:43 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 14:34:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:34:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:34:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:34:45 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:29 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:31 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:31 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:31 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:31 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:31 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:31 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:33 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:35 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:36 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:37 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:39 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:40 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:40 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:36:40 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:37:44 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 14:37:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:37:46 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php:29
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/template.php(810): require_once()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/template.php(745): load_template('/Users/manav/Lo...', true, Array)
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/front-page.php(4): get_header()
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/template-loader.php(106): include('/Users/manav/Lo...')
+#5 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(19): require_once('/Users/manav/Lo...')
+#6 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#7 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 29
+[11-Jun-2024 14:37:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:37:46 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php:29
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/template.php(810): require_once()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/template.php(745): load_template('/Users/manav/Lo...', true, Array)
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/index.php(2): get_header()
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/template-loader.php(106): include('/Users/manav/Lo...')
+#5 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(19): require_once('/Users/manav/Lo...')
+#6 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#7 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 29
+[11-Jun-2024 14:37:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:37:46 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php:29
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/template.php(810): require_once()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/template.php(745): load_template('/Users/manav/Lo...', true, Array)
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/index.php(2): get_header()
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/template-loader.php(106): include('/Users/manav/Lo...')
+#5 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(19): require_once('/Users/manav/Lo...')
+#6 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#7 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 29
+[11-Jun-2024 14:37:46 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:37:46 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Bootstrap_Navwalker" not found in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php:29
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/template.php(810): require_once()
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/template.php(745): load_template('/Users/manav/Lo...', true, Array)
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/index.php(2): get_header()
+#4 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/template-loader.php(106): include('/Users/manav/Lo...')
+#5 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-blog-header.php(19): require_once('/Users/manav/Lo...')
+#6 /Users/manav/Local Sites/wordpressportfolio/app/public/index.php(17): require('/Users/manav/Lo...')
+#7 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 29
+[11-Jun-2024 14:37:56 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 14:37:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:37:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:37:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:37:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:37:57 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:38:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:38:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:38:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:38:03 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:40:11 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 14:40:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:40:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:40:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:40:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:40:13 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:40:49 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 14:40:51 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:40:51 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:40:51 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:40:51 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:40:51 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:41:49 UTC] PHP Parse error:  syntax error, unexpected token "<", expecting end of file in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 20
+[11-Jun-2024 14:42:04 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 14:42:06 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:42:06 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:42:06 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:42:06 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:42:06 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:42:30 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 14:42:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:42:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:42:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:42:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:42:32 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:43:53 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 14:43:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:43:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:43:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:43:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:43:54 UTC] PHP Warning:  Trying to access array offset on value of type bool in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/header.php on line 14
+[11-Jun-2024 14:44:54 UTC] PHP Fatal error:  Cannot redeclare my_theme_setup() (previously declared in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:22) in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 84
+[11-Jun-2024 14:45:57 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 14:55:03 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 14:58:34 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[11-Jun-2024 14:58:38 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905

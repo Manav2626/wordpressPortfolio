@@ -1,0 +1,6 @@
+.custom-logo-link img {
+    height: 30px;
+    width: auto; /* To maintain aspect ratio */
+    padding-left: 2rem;
+    border-radius: 8px;
+}
