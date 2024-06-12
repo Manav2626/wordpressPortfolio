@@ -652,3 +652,43 @@ Stack trace:
 [11-Jun-2024 14:55:03 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
 [11-Jun-2024 14:58:34 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
 [11-Jun-2024 14:58:38 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[12-Jun-2024 10:26:07 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[12-Jun-2024 10:56:43 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[12-Jun-2024 11:36:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 91
+[12-Jun-2024 11:36:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 91
+[12-Jun-2024 11:38:37 UTC] PHP Parse error:  syntax error, unexpected token "}" in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 98
+[12-Jun-2024 11:38:42 UTC] PHP Parse error:  syntax error, unexpected token ")" in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 96
+[12-Jun-2024 11:41:51 UTC] PHP Fatal error:  Cannot redeclare redirectSubsToHomePage() (previously declared in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php:94) in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 109
+[12-Jun-2024 11:51:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 120
+[12-Jun-2024 11:51:52 UTC] PHP Parse error:  syntax error, unexpected token "}", expecting ";" in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-content/themes/lux/functions.php on line 124
+[12-Jun-2024 12:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/script-loader.php:2938) in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/pluggable.php on line 1435
+[12-Jun-2024 12:08:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/script-loader.php:2938) in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/pluggable.php on line 1438
+[12-Jun-2024 12:08:05 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[12-Jun-2024 12:08:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/script-loader.php:2938) in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/pluggable.php on line 1435
+[12-Jun-2024 12:08:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/script-loader.php:2938) in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/pluggable.php on line 1438
+[12-Jun-2024 12:14:05 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "render_product_registration_page" not found or invalid function name in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin.php(259): do_action('my-theme_page_r...')
+#3 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php on line 324
+[12-Jun-2024 12:14:08 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[12-Jun-2024 12:14:12 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "render_product_registration_page" not found or invalid function name in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin.php(259): do_action('my-theme_page_r...')
+#3 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php on line 324
+[12-Jun-2024 12:14:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/script-loader.php:2938) in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/pluggable.php on line 1435
+[12-Jun-2024 12:14:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/script-loader.php:2938) in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/pluggable.php on line 1438
+[12-Jun-2024 12:14:19 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "render_product_registration_page" not found or invalid function name in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php:324
+Stack trace:
+#0 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#2 /Users/manav/Local Sites/wordpressportfolio/app/public/wp-admin/admin.php(259): do_action('my-theme_page_r...')
+#3 {main}
+  thrown in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-hook.php on line 324
+[12-Jun-2024 12:18:47 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905
+[12-Jun-2024 12:25:44 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/manav/Local Sites/wordpressportfolio/app/public/wp-includes/class-wp-customize-widgets.php on line 905

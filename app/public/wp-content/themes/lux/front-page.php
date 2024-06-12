@@ -3,7 +3,7 @@
 <?php 
 get_header();
 ?>
-
+<div class="wrapper">
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -22,6 +22,6 @@ get_header();
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
+</div>
 
 <?php get_footer(); ?>
